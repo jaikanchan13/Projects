@@ -1,19 +1,21 @@
-# Learning Python
+# Groq AI Chatbot
 
-This repository documents my journey learning Python, Git, GitHub, and AI development.
+A simple command-line AI chatbot built with Python and the Groq API.
 
-## Day 1
-- Variables
-- Lists
-- Dictionaries
-- Loops
-- GitHub setup
+## Features
+- Uses Groq's Llama model
+- Stores conversation history during a session
+- Loads API key securely from a `.env` file
+- Runs in the terminal
 
-## Goals
-- Learn Python
-- Learn Git/GitHub
-- Learn AI and LLMs
-- Build projects
-- Prepare for research and internships
+## Tech Stack
+- Python
+- Groq API
+- python-dotenv
 
-Author: Jai Kanchan
+## How to Run
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
